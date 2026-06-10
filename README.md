@@ -1,3 +1,7 @@
+<img width="2879" height="1799" alt="Screenshot 2026-06-10 123502" src="https://github.com/user-attachments/assets/5a6edac7-1523-4207-9db4-ca33949c95be" />
+<img width="2879" height="1799" alt="Screenshot 2026-06-10 123224" src="https://github.com/user-attachments/assets/7dfd6997-3cd4-428f-8841-2ba24ba7260e" />
+<img width="2879" height="1799" alt="Screenshot 2026-06-10 123655" src="https://github.com/user-attachments/assets/0456bdd5-1004-41a0-bf6f-4a0dccbada14" />
+
 # Friendly AI Assistant Chatbot 🤖
 
 A modern, friendly AI chatbot built with Node.js, Express, and Google Gemini. Chat with your helpful AI assistant with conversation memory, summarization, and a beautiful UI.
