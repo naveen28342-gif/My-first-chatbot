@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friendly AI Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="chat-wrapper">
+        <!-- Header -->
+        <div class="header">
+          <h1>🤖 Friendly AI Assistant</h1>
+          <p class="subtitle">Chat with your helpful AI friend</p>
+        </div>
+
+        <!-- Chat Messages -->
+        <div id="chatBox" class="chat-box">
+          <div class="welcome-message">
+            <h2>Welcome! 👋</h2>
+            <p>I'm your friendly AI assistant. You can:</p>
+            <ul>
+              <li>Ask me questions about anything</li>
+              <li>Ask me to summarize long text</li>
+              <li>Chat about topics you're interested in</li>
+              <li>Get help with problems or ideas</li>
+            </ul>
+            <p style="margin-top: 20px; font-size: 0.9em; color: #999;">
+              Start typing below to begin our conversation!
+            </p>
+          </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="input-area">
+          <div class="input-group">
+            <input
+              type="text"
+              id="userInput"
+              class="chat-input"
+              placeholder="Type your message here..."
+              autocomplete="off"
+            />
+            <button id="sendBtn" class="send-btn" title="Send (Enter)">
+              📤 Send
+            </button>
+          </div>
+
+          <!-- Mode Selector -->
+          <div class="mode-selector">
+            <label>
+              <input
+                type="radio"
+                name="mode"
+                value="chat"
+                checked
+              />
+              💬 Chat
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="mode"
+                value="summarize"
+              />
+              📋 Summarize
+            </label>
+            <button id="clearBtn" class="clear-btn" title="Clear conversation">
+              🗑️ Clear
+            </button>
+          </div>
+        </div>
+
+        <!-- Status Indicator -->
+        <div class="status-bar">
+          <span id="status" class="status">Ready</span>
+          <span id="messageCount" class="message-count"></span>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "friendly-ai-chatbot",
+  "version": "1.0.0",
+  "description": "A friendly AI chatbot with Gemini API, internet search, and memory",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "chatbot",
+    "gemini",
+    "ai",
+    "assistant"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
